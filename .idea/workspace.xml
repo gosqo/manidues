@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81646480-e863-4ff1-9f08-a5fed3f134ad" name="Changes" comment="temporarily kept.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/vong/manidues/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/common/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/common/ViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/member/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/member/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vong/manidues/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vong/manidues/Solution.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +93,7 @@
   "keyToString": {
     "Application.ManiDues.executor": "Run",
     "Application.Solution.executor": "Run",
-    "Application.manidues.executor": "Run",
+    "Application.manidues.executor": "Debug",
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.CommonControllerTests.get.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
@@ -316,6 +306,21 @@
     <MESSAGE value="temporarily kept." />
     <MESSAGE value="track context selected." />
     <option name="LAST_COMMIT_MESSAGE" value="track context selected." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java</url>
+          <line>29</line>
+          <properties class="com.vong.manidues.config.JwtAuthenticationFilter" method="doFilterInternal">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
