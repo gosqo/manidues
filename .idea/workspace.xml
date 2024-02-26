@@ -7,10 +7,16 @@
     <list default="true" id="81646480-e863-4ff1-9f08-a5fed3f134ad" name="Changes" comment="temporarily kept.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vong/manidues/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vong/manidues/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +99,7 @@
   "keyToString": {
     "Application.ManiDues.executor": "Run",
     "Application.Solution.executor": "Run",
-    "Application.manidues.executor": "Debug",
+    "Application.manidues.executor": "Run",
     "DefaultHtmlFileTemplate": "HTML File",
     "Gradle.CommonControllerTests.get.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
