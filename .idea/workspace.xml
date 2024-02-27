@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81646480-e863-4ff1-9f08-a5fed3f134ad" name="Changes" comment="temporarily kept.">
+    <list default="true" id="81646480-e863-4ff1-9f08-a5fed3f134ad" name="Changes" comment="track context selected.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/ManiDues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/ManiDues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/MemberServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/controller/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/member/dto/MemberRegisterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/common/ViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/common/ViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/member/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/member/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/member/logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/member/logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/member/signUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/member/signUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/tokenCheck.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/member/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/member/signUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +64,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gosqo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="788882ba-6350-423e-9ffc-d75c3caaaefd" />
+        <option name="url" value="https://github.com/gosqo/manidues.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib/src.zip!/java.base/java/io/BufferedReader.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/6.2.1/d2746b2976fbc9f3e8d1ab11b5002aab952f59e/spring-security-config-6.2.1-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java" root0="SKIP_INSPECTION" />
@@ -82,7 +96,7 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -95,31 +109,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ManiDues.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "Application.manidues.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Gradle.CommonControllerTests.get.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.Load Gradle Dependencies.executor": "Run",
-    "Gradle.manidues [:ManiDues.main()].executor": "Run",
-    "JUnit.MemberRepositoryTests.insertTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ShowUsagesActions.previewPropertyKey": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/makKim/IdeaProjects_Spring_Boot/manidues",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.32155478",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ManiDues.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;Application.manidues.executor&quot;: &quot;Debug&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Gradle.CommonControllerTests.get.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.manidues [:ManiDues.main()].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberRepositoryTests.insertTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ShowUsagesActions.previewPropertyKey&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/makKim/IdeaProjects_Spring_Boot/manidues&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.32155478&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.vong.manidues.token" />
@@ -156,11 +170,11 @@
       </method>
     </configuration>
     <configuration name="manidues" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.vong.ManiDues" />
+      <option name="MAIN_CLASS_NAME" value="com.vong.manidues.ManiDues" />
       <module name="manidues.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.vong.*" />
+          <option name="PATTERN" value="com.vong.manidues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -312,21 +326,6 @@
     <MESSAGE value="temporarily kept." />
     <MESSAGE value="track context selected." />
     <option name="LAST_COMMIT_MESSAGE" value="track context selected." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java</url>
-          <line>29</line>
-          <properties class="com.vong.manidues.config.JwtAuthenticationFilter" method="doFilterInternal">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
