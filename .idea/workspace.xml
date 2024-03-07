@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81646480-e863-4ff1-9f08-a5fed3f134ad" name="Changes" comment="track context selected.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/utility/CustomJsonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/utility/CustomServletResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/JwtAuthenticationEntryPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/JwtExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/JwtExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/fetchWithToken.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/fetchWithToken.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/member/logout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/member/logout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/tokenValidationTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/tokenValidationTest.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,19 +337,9 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenExceptionTestController.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenExceptionTestController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/auth/AuthenticationService.java</url>
-          <line>105</line>
+          <line>82</line>
           <properties class="com.vong.manidues.auth.AuthenticationService" method="refreshToken">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -351,13 +347,37 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/JwtAuthenticationFilter.java</url>
-          <line>34</line>
-          <properties class="com.vong.manidues.config.JwtAuthenticationFilter" method="doFilterInternal">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/token/TokenExceptionTestController.java</url>
+          <line>22</line>
+          <properties class="com.vong.manidues.token.TokenExceptionTestController" method="tokenValidationTest">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java</url>
+          <line>25</line>
+          <properties class="com.vong.manidues.config.LogoutService" method="logout">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vong/manidues/config/LogoutService.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
